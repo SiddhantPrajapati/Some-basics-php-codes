@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            background-color: antiquewhite;
+            border: 5px solid gray;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="form.php">
+        Username: <input type="text" name="uname" value="Username"><br>
+        Password: <input type="password" name="passwd" value="password"><br>
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+    <?php include 'form.php'?>
+</body>
+</html>
